@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>TicTacToe Game</h1>
+    <h2>Undefeatable AI</h2>
+    <div class="game_container">
+        <div class="cell" id="c1" onclick="action(event)"></div>
+        <div class="cell" id="c2" onclick="action(event)"></div>
+        <div class="cell" id="c3" onclick="action(event)"></div>
+        <div class="cell" id="c4" onclick="action(event)"></div>
+        <div class="cell" id="c5" onclick="action(event)"></div>
+        <div class="cell" id="c6" onclick="action(event)"></div>
+        <div class="cell" id="c7" onclick="action(event)"></div>
+        <div class="cell" id="c8" onclick="action(event)"></div>
+        <div class="cell" id="c9" onclick="action(event)"></div>
+    </div> <!-- game_container -->
+    
+    <h2 id="winner"></h2>
+    <div class="result">
+        <div style="color: green;"> Player Score: <span  id="player">0</span> </div>
+        <div style="color:red">AI Score: <span id="ai">0</span> </div>
+    </div>
+    <button id="Restart">Restart</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
