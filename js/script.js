@@ -165,8 +165,10 @@ resbtn.addEventListener("click",()=>{
     document.getElementById("winner").textContent=''
     
     if(turn){
-       ai_move();
-    //    document.getElementById("c5").textContent='O';
-    //    player_item.oitems.push(5);
+        //    ai_move();
+        let temp=9*Math.random()+1
+        let d='c'+Math.floor(temp)
+       document.getElementById(d).textContent='O';
+       player_item.oitems.push(Math.floor(temp));
     }
 })
