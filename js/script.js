@@ -95,7 +95,7 @@ function action(event){
     ai_move();
     }
     else{
-        alert("Place is already taken")
+      // alert("Place is already taken")
     }
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
